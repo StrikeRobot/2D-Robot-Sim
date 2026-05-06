@@ -1,0 +1,8 @@
+services:
+  sr-sim:
+    build: .
+    ports:
+      - "11100:11100"    # noVNC web UI — open http://localhost:11100/vnc.html
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

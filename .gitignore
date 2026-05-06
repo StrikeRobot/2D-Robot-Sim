@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-link
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Ruff / linters
+.ruff_cache/
+
+# Type checkers
+.mypy_cache/
+.pytype/
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.env
+.env.*
+!.env.example
+
+# Project-specific
+assets/gifs/*.gif
+!assets/gifs/.gitkeep
+recordings/
+*.mp4
+*.avi
