@@ -67,8 +67,7 @@ Thumbs.db
 !.env.example
 
 # Project-specific
-assets/gifs/*.gif
-!assets/gifs/.gitkeep
+CLAUDE.md
 recordings/
 *.mp4
 *.avi
